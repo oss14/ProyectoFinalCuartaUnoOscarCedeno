@@ -5,75 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Suscribirse</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesFormIng.css">
+    <style>
+        body{background-color: lightblue}
+    </style>
 </head>
 
 <body>
-    <form action = "" method="POST">
-        <div class="form-group">
+    <div class="contenedor-bodyFormIng">
 
-            <label for="inputName" class="form-control-label">Ingrese su nombre</label>
-            <input type="text" class="form-control" id="inputName">
-            <br>
-            <span class="error-nombre position-form"></span>
-            <br>
-            <label for="inputLasName" class="form-control-label">Ingrese su apellido</label>
-            <input type="text" class="form-control" id="inputLasName">
-            <br>
-            <span class="error-apellido position-form"></span>
-            <br>
-            <label for="inputCell" class="form-control-label">Ingrese su número teléfonico</label>
-            <input type="number" class="form-control" id="inputCell" placeholder="55555555">
-            <br>
-            <span class="error-telefono position-form"></span>                        
-            <br>
-            <label for="inputLive" class="form-control-label">Ingrese su residencia actual</label>
-            <input type="text" class="form-control" id="inputLive">
-            <br>
-            <span class="error-live position-form"></span>
-            <br>
-            <label for="inputDir" class="form-control-label">Ingrese su dirección de residencia exacta</label>
-            <input type="text" class="form-control" id="inputDir">
-            <br>
-            <span class="error-direccion position-form"></span>
-            <br>
-            <label for="inputNac" class="form-control-label">Ingrese su nacionalidad</label>
-            <input type="text" class="form-control" id="inputNac">
-            <br>
-            <span class="error-nacionalidad position-form"></span>
-            <br>
-            <label for="inputAge" class="form-control-label">Ingrese su edad</label>
-            <input type="number" class="form-control" id="inputAge">
-            <br>
-            <span class="error-edad position-form"></span>
-            <br>
-            <label for="inputCom" class="form-control-label">Ingrese su compañía</label>
-            <input type="text" class="form-control" id="inputCom">
-            <br>
-            <span class="error-compañia position-form"></span>
-            <br>
-            <label for="inputMail" class="form-control-label">Ingrese su correo electrónico</label>
-            <input type="text" class="form-control" id="inputMail" placeholder="su-nombre@ejemplo.com">
-            <br>
-            <span class = "error-mail position-form"></span>
-            <br>
-            <label for="inputPass" class="form-control-label">Ingrese una contraseña segura</label>
-            <input type="password" class="form-control" id="inputPass">
-            <br>
-            <span class="error-pass position-form"></span>    
-            <br>
+        <div class="contenedor-tituloFIng">
+            <p>
+                Formulario de Registro de Usuario
+            </p>
+        </div>
+        
+        <form action = "" method="POST">
+            <div class="contenedor-FormIng">
+            
+                <label for="inputName">Ingrese su nombre</label>
+            
+                <input type="text" id="inputName">
+        
+                <span class="error-nombre position-form"></span>
+    
+                <label for="inputLasName" >Ingrese su apellido</label>
+            
+                <input type="text" id="inputLasName">
+
+                <span class="error-apellido position-form"></span>
+    
+                <label for="inputCell" >Ingrese su número teléfonico</label>
+            
+                <input type="number" id="inputCell" placeholder="55555555">
+            
+                <span class="error-telefono position-form"></span>                        
+            
+                <label for="inputLive" >Ingrese su residencia actual</label>
+            
+                <input type="text" id="inputLive">
+            
+                <span class="error-live position-form"></span>
+            
+                <label for="inputDir" >Ingrese su dirección de residencia exacta</label>
+            
+                <input type="text" id="inputDir">
+            
+                <span class="error-direccion position-form"></span>
+            
+                <label for="inputNac" >Ingrese su nacionalidad</label>
+            
+                <input type="text" id="inputNac">
+            
+                <span class="error-nacionalidad position-form"></span>
+            
+                <label for="inputAge" >Ingrese su edad</label>
+            
+                <input type="number" id="inputAge">
+            
+                <span class="error-edad position-form"></span>
+            
+            
+                <label for="inputCom">Ingrese su compañía</label>
+            
+                <input type="text" id="inputCom">
+            
+            
+                <span class="error-compañia position-form"></span>
+            
+            
+                <label for="inputMail" >Ingrese su correo electrónico</label>
+            
+                <input type="text"  id="inputMail" placeholder="su-nombre@ejemplo.com">
+            
+            
+                <span class = "error-mail position-form"></span>
+            
+            
+                <label for="inputPass">Ingrese una contraseña segura</label>
+            
+                <input type="password" id="inputPass">
+            
+            
+                <span class="error-pass position-form"></span>    
+            
                 
-                    <div>
+                    <div class="btn-Suscribe">
                         <button type="button" id="btn-submit">
                          Suscribirse
                         </button>
                     </div>
             
-        </div>
-    </form> 
-        
-    <div class="return">
-            <a href="index.html">Regresar a Página Principal</a>
+            </div>
+        </form> 
+    </div>
+        <div class="return">
+            <ul>
+                <a href="index.html">Regresar a Página Principal</a>
+            </ul>
         </div>
     
         <script

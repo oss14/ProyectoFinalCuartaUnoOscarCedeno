@@ -1,7 +1,7 @@
 .menu-principal{
     display: flex;
     justify-content: center;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 .menu-principal ul a{
     text-decoration: none;
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-    font-family: fantasy;
+    font-family: sans-serif;
     color: white;
 }
 .contenedor-ingreso{
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    font-family: cursive;
+    font-family: sans-serif;
     color: white;
 }
 #button-In{
