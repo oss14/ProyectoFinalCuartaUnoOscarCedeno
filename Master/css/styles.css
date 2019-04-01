@@ -1,0 +1,70 @@
+.menu-principal{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif
+}
+.menu-principal ul a{
+    text-decoration: none;
+    padding: 10px;  
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.menu-principal ul a:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    font-size: 35px;
+}
+.contenedor-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: white;
+}
+.contenedor-ingreso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: cursive;
+    color: white;
+}
+#button-In{
+    text-decoration: none;
+    padding: 10px;  
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+#button-In:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+#inputUserName{
+    background-color:#1883ba;
+    margin: 25px;
+    border: 0;
+    width: 500px;
+    height: 20px;
+    color: white;
+}
+#inputUserPass{
+    background-color:#1883ba;
+    margin: 25px;
+    border: 0;
+    width: 500px;
+    height: 20px;
+    color: white;
+}
